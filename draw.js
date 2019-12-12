@@ -56,8 +56,8 @@
       var color = $(this).attr('id')
       curColor = eval(color);
       $(".colorclick").css("filter","");
-      $(".colorclick").css("left","0");
-      $(this).css("left","20px");
+      $(".colorclick").css("left","-10px");
+      $(this).css("left","0px");
       $(this).css("filter","drop-shadow(0px 0px 5px "+curColor+")");
       
 });
