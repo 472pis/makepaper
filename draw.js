@@ -46,7 +46,7 @@
     }
     
     
-  document.querySelector('.color').innerHTML = tags+tags2+'<div class="clear"><p>CLEAR </p></div>';
+  document.querySelector('.color').innerHTML = tags+tags2+'<br><div class="clear"><p>CLEAR </p></div>';
   document.querySelector('.backgroundcolor').innerHTML = tags3;
   
     //색깔 바꾸는 버튼 만들기
